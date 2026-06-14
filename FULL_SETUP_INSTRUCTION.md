@@ -244,7 +244,7 @@ Open `.env` again and insert the received group ID:
 
 ```env
 BOT_TOKEN=PASTE_YOUR_REAL_BOT_TOKEN_HERE
-ADMIN_CHAT_ID=-1001234567890
+ADMIN_CHAT_ID=YOUR_REAL_ADMIN_CHAT_ID
 ```
 
 Then run the bot again.
