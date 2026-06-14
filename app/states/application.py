@@ -1,0 +1,25 @@
+from aiogram.fsm.state import State, StatesGroup
+
+
+class ApplicationForm(StatesGroup):
+    confirm_legal_entity = State()
+    company_name = State()
+    jurisdiction = State()
+    registration_number = State()
+    tax_number = State()
+    contact_person = State()
+    position = State()
+    corporate_email = State()
+    phone_number = State()
+    loan_amount = State()
+    currency = State()
+    custom_currency = State()
+    desired_term = State()
+    purpose_of_financing = State()
+    business_description = State()
+    additional_comments = State()
+    supporting_documents = State()
+    personal_data_consent = State()
+    ncnd_consent = State()
+    edit_field = State()
+    final_confirmation = State()
